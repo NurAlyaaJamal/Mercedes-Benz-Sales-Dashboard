@@ -1,0 +1,153 @@
+table mercedes_benz_sales_2020_2025
+	lineageTag: dcc88097-416c-4cf9-84ef-fb0105449350
+
+	measure 'Total Units' = SUM(mercedes_benz_sales_2020_2025[Sales Volume])
+		formatString: 0
+		lineageTag: bb24b003-5097-4941-826d-cc8e26fb6330
+
+	measure 'Total Revenue' = SUM(mercedes_benz_sales_2020_2025[Revenue])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: a39b0634-e288-4847-8857-ea65fa3300a7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Average Price' = DIVIDE([Total Revenue],[Total Units])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 04e36c92-d09b-4123-ae1c-4ee7b4fdd06b
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Average Horsepower' = AVERAGE(mercedes_benz_sales_2020_2025[Horsepower])
+		formatString: 0" hp"
+		lineageTag: cfcef9a6-effd-47a9-928f-2b7fe14c1bb6
+
+	measure 'Turbo %' = DIVIDE(CALCULATE([Total Units], mercedes_benz_sales_2020_2025[Turbo] = "Yes"),[Total Units])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 087aab74-698a-44ed-9cf6-4ae20b71fe32
+
+	measure 'Revenue YoY Label' = VAR CurrYear = MAX(mercedes_benz_sales_2020_2025[Year]) VAR CurrVal = CALCULATE([Total Revenue], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear) VAR PrevVal = CALCULATE([Total Revenue], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear - 1) VAR Chg = DIVIDE(CurrVal - PrevVal, PrevVal) RETURN IF(ISBLANK(Chg), "", IF(Chg >= 0, "▲ ", "▼ ") & FORMAT(ABS(Chg), "0.0%") & " vs " & (CurrYear - 1))
+		lineageTag: 5a1e7c42-3b9d-4f60-8c11-2d7e9a0b6f31
+
+	measure 'Units YoY Label' = VAR CurrYear = MAX(mercedes_benz_sales_2020_2025[Year]) VAR CurrVal = CALCULATE([Total Units], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear) VAR PrevVal = CALCULATE([Total Units], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear - 1) VAR Chg = DIVIDE(CurrVal - PrevVal, PrevVal) RETURN IF(ISBLANK(Chg), "", IF(Chg >= 0, "▲ ", "▼ ") & FORMAT(ABS(Chg), "0.0%") & " vs " & (CurrYear - 1))
+		lineageTag: c83d2f19-6e40-4b7a-9d52-1a4b8e7c3f20
+
+	measure 'Revenue YoY Color' = VAR CurrYear = MAX(mercedes_benz_sales_2020_2025[Year]) VAR CurrVal = CALCULATE([Total Revenue], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear) VAR PrevVal = CALCULATE([Total Revenue], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear - 1) VAR Chg = DIVIDE(CurrVal - PrevVal, PrevVal) RETURN IF(ISBLANK(Chg), "#9AA4AE", IF(Chg >= 0, "#2DD4BF", "#F87171"))
+		lineageTag: e4b7a1d2-5c30-4a8e-b6f9-0d1c2a3b4e51
+
+	measure 'Units YoY Color' = VAR CurrYear = MAX(mercedes_benz_sales_2020_2025[Year]) VAR CurrVal = CALCULATE([Total Units], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear) VAR PrevVal = CALCULATE([Total Units], REMOVEFILTERS(mercedes_benz_sales_2020_2025[Year]), mercedes_benz_sales_2020_2025[Year] = CurrYear - 1) VAR Chg = DIVIDE(CurrVal - PrevVal, PrevVal) RETURN IF(ISBLANK(Chg), "#9AA4AE", IF(Chg >= 0, "#2DD4BF", "#F87171"))
+		lineageTag: f5c8b2e3-6d41-4b9f-87a0-1e2d3b4c5f62
+
+	column Model
+		dataType: string
+		lineageTag: 009d8281-e548-45b5-86a1-6c54fe0aea3d
+		summarizeBy: none
+		sourceColumn: Model
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: e16a350b-1324-4099-bfd0-cab3dafdb46b
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Region
+		dataType: string
+		lineageTag: dc1b5b36-ef61-4458-bbe4-af1987e29604
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Color
+		dataType: string
+		lineageTag: b9b9935c-5ecd-442f-8b42-df21a3404c1b
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fuel Type'
+		dataType: string
+		lineageTag: ca6af957-39a9-4118-bdb0-7eaafecd74b1
+		summarizeBy: none
+		sourceColumn: Fuel Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Base Price (USD)'
+		dataType: int64
+		formatString: 0
+		lineageTag: a4ac91f0-c52d-40f5-aaf4-9eafb5f097ac
+		summarizeBy: sum
+		sourceColumn: Base Price (USD)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Horsepower
+		dataType: int64
+		formatString: 0
+		lineageTag: e48258e6-0430-43e7-abe7-ba84d64f58ea
+		summarizeBy: none
+		sourceColumn: Horsepower
+
+		annotation SummarizationSetBy = User
+
+	column 'Sales Volume'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5b8aff1d-0ebc-4636-b333-f3f7e7c57cdc
+		summarizeBy: sum
+		sourceColumn: Sales Volume
+
+		annotation SummarizationSetBy = Automatic
+
+	column Turbo
+		dataType: string
+		lineageTag: 348a3904-81e5-4127-96be-1a2caba5a4f0
+		summarizeBy: none
+		sourceColumn: Turbo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Revenue
+		dataType: decimal
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: d4524e0a-95a5-4f75-86b6-30266677add8
+		summarizeBy: sum
+		sourceColumn: Revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Price Band'
+		dataType: string
+		lineageTag: 2d5b2f29-f9c0-4610-a707-e1ed11cf3606
+		summarizeBy: none
+		sourceColumn: Price Band
+
+		annotation SummarizationSetBy = Automatic
+
+	partition mercedes_benz_sales_2020_2025 = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\liya\Documents\Portfolio Project\mercedes_benz_sales_2020_2025.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Model", type text}, {"Year", Int64.Type}, {"Region", type text}, {"Color", type text}, {"Fuel Type", type text}, {"Base Price (USD)", Int64.Type}, {"Horsepower", Int64.Type}, {"Sales Volume", Int64.Type}, {"Turbo", type text}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true),
+				    #"Added Custom" = Table.AddColumn(#"Filtered Rows", "Revenue", each [#"Base Price (USD)"]*[Sales Volume]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom",{{"Revenue", Currency.Type}}),
+				    #"Added Conditional Column" = Table.AddColumn(#"Changed Type1", "Price Band", each if [#"Base Price (USD)"] < 40000 then "Under 40K" else if [#"Base Price (USD)"] < 60000 then "40K --60K" else if [#"Base Price (USD)"] < 80000 then "60K - 80K" else "80K+"),
+				    #"Filtered Rows1" = Table.SelectRows(#"Added Conditional Column", each true)
+				in
+				    #"Filtered Rows1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

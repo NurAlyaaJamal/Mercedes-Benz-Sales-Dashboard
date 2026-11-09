@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Mercedes-Benz Car Sales Dashboard V4.SemanticModel"
+    }
+  }
+}

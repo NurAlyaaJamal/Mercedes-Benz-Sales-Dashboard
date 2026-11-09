@@ -1,0 +1,2300 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "mercedes_benz_sales_2020_2025.total_units": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Total Units"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total units": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "aggregate unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Units": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.total_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Total Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "total profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mercedes benz sales 2020 2025": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mercedes benz sale 2020 2025": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mercedes_benz_sales_2020_2025": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sales 2020 2025": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale 2020 2025": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "benz sales 2020 2025": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "benz sale 2020 2025": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.model": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Model"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perfect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "classic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ideal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "representative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mockup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "simulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "mercedes_benz_sales_2020_2025.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.fuel_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Fuel Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fuel type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fuel category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fuel brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fuel class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.base_price_USD": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Base Price (USD)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base price (USD)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base price": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.horsepower": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Horsepower"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horsepower": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.sales_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Sales Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales volume": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "volume": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sale size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sale bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sale tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sale book": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.turbo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Turbo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turbo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.price_band": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Price Band"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price band": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "band": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "price posse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "posse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "price group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price gang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price mob": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.average_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Average Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.average_horsepower": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Average Horsepower"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average horsepower": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.turbo_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Turbo %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turbo %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "turbo percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "turbo pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "of Units have Turbo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.revenue_YoY_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Revenue YoY Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue YoY label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue yoy sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "revenue yoy tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "revenue yoy decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "income yoy label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "revenue yoy name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        },
+			        {
+			          "profit yoy label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "turnover yoy label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "yield yoy label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.units_YoY_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Units YoY Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "units YoY label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit yoy sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "unit yoy tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "unit yoy decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "unit yoy label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "unit yoy name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.revenue_YoY_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Revenue YoY Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue YoY color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income yoy color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "profit yoy color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "turnover yoy color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "yield yoy color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "revenue yoy hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "revenue yoy tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "revenue yoy shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "revenue yoy dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "revenue yoy paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "revenue yoy pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025.units_YoY_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mercedes_benz_sales_2020_2025",
+			          "ConceptualProperty": "Units YoY Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "units YoY color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit yoy color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "unit yoy hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "unit yoy tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "unit yoy shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "unit yoy dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "unit yoy paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "unit yoy pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "mercedes_benz_sales_2020_2025_has_units_YoY_label": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.units_YoY_label": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.units_YoY_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.units_YoY_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_units_YoY_label"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_revenue_YoY_label": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.revenue_YoY_label": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.revenue_YoY_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.revenue_YoY_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_revenue_YoY_label"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_turbo_": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.turbo_": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.turbo_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.turbo_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_turbo_"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_average_horsepower": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.average_horsepower": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.average_horsepower"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.average_horsepower"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_average_horsepower"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_average_price": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.average_price": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.average_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.average_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_average_price"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "mercedes_benz_sales_2020_2025.average_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "average_price_indicates_how_expensive_mercedes_benz_sales_2020_2025_are"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_price_band": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.price_band": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.price_band"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.price_band"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_price_bands"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.revenue": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_revenues"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "mercedes_benz_sales_2020_2025.revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "revenue_indicates_how_expensive_mercedes_benz_sales_2020_2025_are"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_turbo": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.turbo": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.turbo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.turbo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_turbo"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_sales_volume": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.sales_volume": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.sales_volume"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.sales_volume"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_sales_volumes"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_horsepower": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.horsepower": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.horsepower"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.horsepower"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_horsepower"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_base_price_USD": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.base_price_USD": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.base_price_USD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.base_price_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_base_price_USD"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_fuel_type": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.fuel_type": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.fuel_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.fuel_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_fuel_types"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_color": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.color": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_colors"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.region": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_regions"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.year": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_years"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_model": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.model": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.model"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.model"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_models"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_total_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.total_revenue": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.total_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.total_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_total_revenue"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_total_units": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.total_units": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.total_units"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.total_units"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_total_units"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.region": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "mercedes_benz_sales_2020_2025.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_are_in_regions"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_revenue_YoY_color": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.revenue_YoY_color": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.revenue_YoY_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.revenue_YoY_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_revenue_YoY_color"
+			        }
+			      ]
+			    },
+			    "mercedes_benz_sales_2020_2025_has_units_YoY_color": {
+			      "Binding": {
+			        "ConceptualEntity": "mercedes_benz_sales_2020_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mercedes_benz_sales_2020_2025": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025"
+			          }
+			        },
+			        "mercedes_benz_sales_2020_2025.units_YoY_color": {
+			          "Target": {
+			            "Entity": "mercedes_benz_sales_2020_2025.units_YoY_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mercedes_benz_sales_2020_2025"
+			            },
+			            "Object": {
+			              "Role": "mercedes_benz_sales_2020_2025.units_YoY_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mercedes_benz_sales_2020_2025_have_units_YoY_color"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
