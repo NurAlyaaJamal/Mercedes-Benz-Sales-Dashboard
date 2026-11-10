@@ -2,9 +2,9 @@
 
 An interactive two-page Power BI dashboard built on more than 12 million units of Mercedes-Benz sales (global, 2020–2025). The Overview page shows the headline numbers and the main breakdowns. The Analysis page looks at price, power and revenue by model and year.
 
-![Overview](screenshots/overview.png)
+<img width="1134" height="796" alt="image" src="https://github.com/user-attachments/assets/2398c91d-c957-4035-9443-958b1ae3b27d" />
+<img width="1134" height="796" alt="image" src="https://github.com/user-attachments/assets/338bfb9c-0f5b-4b22-b5a0-8d2bb1d74c9e" />
 
-![Analysis](screenshots/analysis.png)
 
 ## Key numbers
 
@@ -46,27 +46,9 @@ An interactive two-page Power BI dashboard built on more than 12 million units o
 
 **Tools:** Power BI Desktop, DAX, Power Query. The report is saved as a Power BI Project (PBIP), so the report and model are plain text files that work well with Git.
 
-## Repository contents
-
-```
-├── README.md
-├── screenshots/                 Dashboard screenshots
-├── dashboard.pdf                Both pages exported as PDF (optional)
-├── powerbi-project/
-│   ├── Mercedes-Benz Car Sales Dashboard.pbip
-│   ├── Mercedes-Benz Car Sales Dashboard.Report/          Pages and visuals
-│   └── Mercedes-Benz Car Sales Dashboard.SemanticModel/   Tables, measures, DAX
-└── data/
-    └── sample_1000_rows.csv     Small sample (the full file is too large for GitHub)
-```
-
-## How to open it
-
-1. Install Power BI Desktop (Windows) and enable **File → Options → Preview features → Power BI Project (.pbip) save option**.
-2. Open `powerbi-project/Mercedes-Benz Car Sales Dashboard.pbip`.
-3. The report expects the full CSV (`mercedes_benz_sales_2020_2025.csv`). It is not included because of its size. Place your copy anywhere, then point to it in **Home → Transform data → Data source settings → Change Source**.
-
 ## Data
+
+https://www.kaggle.com/datasets/dhrubangtalukdar/mercedes-global-car-sales-2020-2025?select=mercedes_benz_sales_2020_2025.csv
 
 | Column | Description |
 |---|---|
@@ -80,11 +62,8 @@ An interactive two-page Power BI dashboard built on more than 12 million units o
 | Sales Volume | Units sold in the row |
 | Turbo | Yes / No |
 
-[ADD DATA SOURCE HERE, for example the Kaggle dataset link]
-
-**Notes on the data:** the values are spread very evenly across years and models, so differences between groups are small. For example, average horsepower is almost the same with or without a turbo. The dashboard is designed to make those comparisons easy to read.
 
 ## Author
 
-**Nur Alyaa Jamal**, Data Analyst
+**Nur Alyaa Jamal**, Industrial Statistics Graduate
 [LinkedIn](https://www.linkedin.com/in/nur-alyaa-jamal13/) · [GitHub](https://github.com/NurAlyaaJamal)
